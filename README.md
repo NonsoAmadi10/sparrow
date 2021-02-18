@@ -1,24 +1,31 @@
-# README
+# Sparrw
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- This is a simple social media app i experimented with while learning rails
 
 Things you may want to cover:
 
 * Ruby version
+      - Ruby >=2.5
 
 * System dependencies
+      - Better Errors
+      - Bulma
+      - Guard
+      - Gravatar
+      - SQLite3
 
 * Configuration
-
-* Database creation
+      - Clone this Repo
+      - Enter this repo in your comandline by running ` cd <repo-name> `
+      - Run `bundle install` to install all dependencies
 
 * Database initialization
 
-* How to run the test suite
+  - Run `rails db:migrate` to migrate the database schema
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+* Start the development server
 
-* ...
+- Run ` rails server ` 
+
+
